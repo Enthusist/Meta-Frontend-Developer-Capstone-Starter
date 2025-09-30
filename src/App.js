@@ -1,12 +1,20 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+import "./App.css";
+import BookingForm from "./components/BookingForm";
+import Menu from "./components/Menu";
 
 function App() {
   return (
- 
-    <div>
-      <h1>Meta Frontend Developer Capstone Starter Files</h1>
-    </div>
+    <>
+      <Nav />
+      <Main />
+      <Menu />
+      <Footer />
+    </>
   );
 }
 
